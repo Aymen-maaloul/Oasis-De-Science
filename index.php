@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<section class="four">
+    <section class="four">
         <form action=""></form>
 <div class="form-container">
     <div class="form">
