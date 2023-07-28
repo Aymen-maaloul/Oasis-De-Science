@@ -559,7 +559,7 @@ header>.a1>img{
 }
 header>.a1{
     position: relative;
-    left: 0px;
+    left: 50px;
     top: 25px;
 }
 header>div{
@@ -581,7 +581,7 @@ top: -140px;
 }
 .a2{
   position: absolute;
-  left: 400px;
+  left: 300px;
   top: 50px;
   border-style: none;
   background: none;
