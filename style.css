@@ -548,7 +548,7 @@ left: 43%;
       height: --webkit-fill-available;
   }
   header{
-    width: 100%;
+    width: 95.5%;
     height: 200px;
     position: relative;
     left: -8px;
@@ -559,7 +559,7 @@ header>.a1>img{
 }
 header>.a1{
     position: relative;
-    left: 50px;
+    left: 0px;
     top: 25px;
 }
 header>div{
@@ -632,11 +632,11 @@ top: 20%;
   top: 7%;
 }
 .second>p{
-  width: 400px;
+  width: 300px;
   height: 330px;
   color: #7D7D7D;
   font-family: Abel;
-  font-size: 30px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
