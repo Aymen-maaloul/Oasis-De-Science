@@ -740,8 +740,8 @@ flex-shrink: 0;
 border-radius: 4.868px;
 background: #00FFC2;
 border: none;
-position: relative;
-top: 50px;
+position: absolute;
+top: 15%;
 }
 .btn1{
   display: flex;
@@ -912,7 +912,7 @@ top: 60%;
   color: rgba(0, 0, 0, 0.50);
 }
 .form-control{
-  width: 400px;
+  width: 90%;
   height: 50px;
   border-radius: 10px;
   margin-top: 15px;
@@ -925,7 +925,7 @@ top: 60%;
   top: 250%;
 }
 .form-control1{
-  width: 400px;
+  width: 90%;
   height:200px;
   margin-top: 15px;
   border-radius: 10px;
