@@ -7,11 +7,34 @@
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="style.css">
     <title>oasis des sciences</title>
-    <link href="https://fonts.cdnfonts.com/css/porter-sans-block" rel="stylesheet">
-                
+
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+  <script src="index.js"></script>
+
+
+<script type="text/javascript">
+ (function(){
+    emailjs.init("-zjACg2xEmMH-82j2");
+ })();
+</script>
 </head>
 
 <body>
+    <nav class="header">
+        <a class="a1" href=""><img src="logo.png" alt=""></a>
+        <div></div>
+        <h2>ODS</h2>
+        <button class="a2">
+            <img src="Group 1.png" alt="">
+        </button>
+    </nav>
     <div class="menu">
         <button class="out" >
             <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
@@ -37,14 +60,7 @@
         </div>
     </center>
     
-    <header>
-        <a class="a1" href=""><img src="logo.png" alt=""></a>
-        <div></div>
-        <h2>ODS</h2>
-        <button class="a2">
-            <img src="Group 1.png" alt="">
-        </button>
-    </header>
+    
     
     <div class="wel">
         <h1>WELECOME TO OUR WEBSITE</h1>
@@ -53,6 +69,7 @@
     </div>
     <a class="dis1" href="#second" align="center"><button class="dis">Discover</button></a>
     <section id="second" class="second">
+        <div class="second">
         <center>
             <h1>ABOUT US</h1>
         </center>
@@ -66,7 +83,9 @@ and linking the relevant components around science
 and the economy, supporting the direction of development 
 projects, and seeking to achieve value-added projects.</p>
     </section>
+</div>
     <section class="three" id="three">
+        <div class="three">
         <center><h1>EXPERIENCE</h1></center>
         
         <div class="enig">
@@ -87,8 +106,11 @@ projects, and seeking to achieve value-added projects.</p>
         </center>
             
         </div>
+    </div>
     </section>
     <section class="four" id="four">
+        <div>
+        <!--
         <form action="index.php"></form>
 <div class="form-container">
     <div class="form">
@@ -103,6 +125,61 @@ projects, and seeking to achieve value-added projects.</p>
         </div>
     </div>
 </div>
+</div>-->
+    <div class="ff">
+        <div class="cont">
+            <h1>Contact us</h1>
+            <p>We are committed to processing the information in order to contact you and talk about your project.
+            </p>
+        </div>
+        <table class="loc">
+    <tr>
+            <td>
+            <img src="Vector.png" class="v" alt="">
+            </td>
+            <td>
+            <a class="mail" href="mailto:oasis.sciences@gmail.com">oasis.sciences@gmail.com</a>
+        </td>
+    </tr>
+       <tr> 
+        <td>
+            <img src="Vector1.png" class="v1" alt="">
+        </td><td>
+            <a class="adr">Haya ,Metouia ,Gabes</a>
+        </td>
+    </tr>
+        <tr>
+            <td>
+            <img src="Vector2.png" class="v2" alt="">
+            </td><td>
+            <a class="ph">96 889 798</a></td></tr>
+        </table>
+     <!---   <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3416.9345075046185!2d9.996822111258195!3d33.961371122411386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12557b3bc3e78eeb%3A0xedef7dc12ec02048!2sAssociation%20Oasis%20Des%20Sciences%20Metouia!5e1!3m2!1sfr!2stn!4v1690551455228!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>-->
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 border-left py-3">
+            <div class="form-group">
+              <input
+                type="text" class="form-control" id="name" placeholder="Enter name*" />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="email" placeholder="Enter email"
+              />
+            </div>
+            <div class="form-group">
+              <textarea class="form-control1" id="message" rows="3"></textarea>
+            </div>
+            <button class="btn1" onclick="sendMail()">Submit</button>
+          </div>
+        </div>
+      </div>
 </div>
     </section>
 
@@ -136,6 +213,30 @@ projects, and seeking to achieve value-added projects.</p>
 
     <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
     <script src="script.js"></script>
+    <script src="index.js">
+        function sendMail() {
+            var params = {
+              name: document.getElementById("name").value,
+              email: document.getElementById("email").value,
+              message: document.getElementById("message").value,
+            };
+          
+            const serviceID = "service_pfivuzk";
+            const templateID = "template_999brkj";
+          
+              emailjs.send(serviceID, templateID, params)
+              .then(res=>{
+                  document.getElementById("name").value = "";
+                  document.getElementById("email").value = "";
+                  document.getElementById("message").value = "";
+                  console.log(res);
+                  window.open("thank you.html")
+          
+              })
+              .catch(err=>console.log(err));
+          
+          }
+    </script>
 </body>
 
 </html>
