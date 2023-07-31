@@ -515,7 +515,7 @@ top: 60%;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.50);
   }
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:600px) {
     body{
       background: url("first2.png");
       background-repeat: no-repeat;
