@@ -689,7 +689,7 @@ line-height: normal;
   color: #17A29C;
 }
 .enig>center>img{
-width: 300px;
+width: 90%;
 position: relative;
 top: 50px;
 }
@@ -704,7 +704,7 @@ position: relative;
 top: 50px;
 }
 .enet>center>img{
-  width: 300px;
+  width: 90%;
   position: relative;
   top: 50px;
 }
@@ -741,7 +741,8 @@ border-radius: 4.868px;
 background: #00FFC2;
 border: none;
 position: absolute;
-top: 15%;
+top: 80%;
+left: 30%;
 }
 .btn1{
   display: flex;
@@ -869,6 +870,7 @@ width: 200px;
 height: 200px;
 }
 .cont{
+  width: 90%;
   position: absolute;
   left: 10%;
 }
@@ -882,7 +884,7 @@ line-height: normal;
 }
 .cont>p{
   display: flex;
-width: 390px;
+width: 90%;
 flex-direction: column;
 flex-shrink: 0;
 color: rgba(0, 0, 0, 0.50);
@@ -899,13 +901,13 @@ top: 60%;
   justify-content: left;
   position: absolute;
   left: 10%;
-  top: 150%;
+  top: 155%;
 }
 .v,.v1,.v2{
   width: 30px;
   margin-top: 20px;
 }.mail,.adr,.ph {
-  font-size: 25px;
+  font-size: 15px;
   margin-left: 15px ;
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
