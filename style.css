@@ -197,7 +197,8 @@ table{
     position: relative;
     top:240px;
 }
-.dis{
+
+.dis1{
     border-radius: 100px;
     background: linear-gradient(175deg, #17A29C 0%, rgba(217, 217, 217, 0.00) 100%);
     width: 167px;
@@ -206,9 +207,9 @@ table{
     font-size: 20px;
     color: white;
     border: none;
-    position: relative;
+    position: absolute;
     left: 200px;
-    top: 340px;
+    top: 60%;
 }
 .second{
     position: absolute;
@@ -515,7 +516,7 @@ top: 60%;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.50);
   }
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:767px) {
     body{
       background: url("first2.png");
       background-repeat: no-repeat;
@@ -524,7 +525,7 @@ top: 60%;
       height: --webkit-fill-available;
   }
 nav{
-    width: 90%;
+    width: 95%;
     height: 200px;
     position: relative;
     left: -8px;
@@ -535,7 +536,7 @@ nav>.a1>img{
 }
 nav>.a1{
     position: relative;
-    left: 50px;
+    left: 25px;
     top: 25px;
 }
 nav>div{
@@ -543,7 +544,7 @@ nav>div{
     height: 75px;
     background-color: #17A29C;
     position: relative;
-    left: 160px;
+    left: 135px;
     top: -50px;
 }
 nav>h2{
@@ -551,7 +552,7 @@ nav>h2{
     width: 35px;
     font-size: 35px;
     position: relative;
-    left: 175px;
+    left: 150px;
 top: -140px;
     color: #17A29C;
 }
@@ -568,6 +569,7 @@ top: -140px;
 .wel{
 width: 97.5%;
 height: 250%;
+display: flex;
 position: absolute;
 top: 25%;
 }
@@ -583,11 +585,11 @@ top: 25%;
 .wel>p{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #000;
-  font-size: 29px;
+  font-size: 23px;
   position: absolute;
   left: 5%;
   top: 175px;
-  width: 95.5%;
+  width: 97.5%;
 }
 .menu{
   background-color: rgb(255, 255, 255);
@@ -620,7 +622,7 @@ top: 25%;
   left: 0%;
   top: 70%;
 }
-.dis{
+.dis1{
   border-radius: 100px;
   background: linear-gradient(175deg, #17A29C 0%, rgba(217, 217, 217, 0.00) 100%);
   width: 175px;
@@ -629,8 +631,8 @@ top: 25%;
   color: white;
   border: none;
   position: absolute;
-  left: 10%;
-  top: 90%;
+  left: 25px;
+  top: 20%;
 }
 .second{
   position: absolute;
@@ -673,7 +675,7 @@ line-height: normal;
   background: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(145, 145, 145, 0.50);
   width: 90%;
-  height: 30%;
+  height: 40%;
   flex-shrink: 0;
   transition: 0.7s ease;
   color: #17A29C;
@@ -683,7 +685,7 @@ line-height: normal;
   background: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(145, 145, 145, 0.50);
   width: 90%;
-  height: 30%;
+  height: 40%;
   flex-shrink: 0;
   transition: 0.7s ease;
   color: #17A29C;
@@ -691,7 +693,7 @@ line-height: normal;
 .enig>center>img{
 width: 90%;
 position: relative;
-top: 50px;
+top: 25px;
 }
 .enig>center>h2{
 
@@ -710,7 +712,7 @@ top: 50px;
 }
 .enet>center>h2{
   position: relative;
-  top: 25px;
+  top: 50px;
       font-family: 'Abel', sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -741,7 +743,7 @@ border-radius: 4.868px;
 background: #00FFC2;
 border: none;
 position: absolute;
-top: 90%;
+top: 100%;
 left: 30%;
 }
 .btn1{
