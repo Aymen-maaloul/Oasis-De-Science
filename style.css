@@ -685,7 +685,7 @@ line-height: normal;
   background: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(145, 145, 145, 0.50);
   width: 90%;
-  height: 40%;
+  height: 35%;
   flex-shrink: 0;
   transition: 0.7s ease;
   color: #17A29C;
@@ -695,7 +695,7 @@ line-height: normal;
   background: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(145, 145, 145, 0.50);
   width: 90%;
-  height: 40%;
+  height: 35%;
   flex-shrink: 0;
   transition: 0.7s ease;
   color: #17A29C;
@@ -753,7 +753,7 @@ border-radius: 4.868px;
 background: #00FFC2;
 border: none;
 position: absolute;
-top: 100%;
+top: 80%;
 left: 30%;
 }
 .btn1{
