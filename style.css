@@ -647,11 +647,11 @@ top: 25%;
   top: 7%;
 }
 .second>p{
-  max-width:  400px;
+  max-width:  350px;
   height: 330px;
   color: #7D7D7D;
   font-family: Abel;
-  font-size: 30px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -704,7 +704,7 @@ line-height: normal;
 }
 .three>div>center>h1{
   position: absolute;
-  left: 50px;
+  left: 75px;
 }
 .three>div{
   position: relative;
@@ -717,7 +717,7 @@ line-height: normal;
   box-shadow: 0px 4px 4px 0px rgba(145, 145, 145, 0.50);
   width: 90%;
   margin-bottom: 50px;
-  height: 35%;
+  height: 33%;
   flex-shrink: 0;
   transition: 0.7s ease;
   color: #17A29C;
@@ -727,7 +727,7 @@ line-height: normal;
   background: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(145, 145, 145, 0.50);
   width: 90%;
-  height: 35%;
+  height: 33%;
   flex-shrink: 0;
   transition: 0.7s ease;
   color: #17A29C;
@@ -980,7 +980,7 @@ top: 60%;
 }
 footer{
   background: #17A29C;
-  width: 100%;
+  width: 120%;
   position: absolute;
   left: 0%;
   top: 610%;
