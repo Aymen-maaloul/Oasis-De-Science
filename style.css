@@ -244,7 +244,7 @@ line-height: normal;
 }
 .three{
     position: absolute;
-    top: 230%;
+    top: 190%;
     left: 0px;
     width: 100%;
     display: flex;
@@ -516,6 +516,32 @@ top: 60%;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.50);
   }
+  footer{
+    background: #17A29C;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 440%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  footer>center>p>a{
+    color: #FFF;
+  }
+  footer>center>p>a:hover{
+    color: #cbcbcb;
+  }
+  .form-control1::placeholder{
+    padding-top: 20px;
+    
+    font-family: 'Poppins', sans-serif;
+  }
+  .form-control,.form-control1::placeholder{
+    padding-left: 20px;
+    
+    font-family: 'Poppins', sans-serif;
+  }
   @media screen and (max-width:767px) {
     body{
       background: url("first2.png");
@@ -585,8 +611,8 @@ top: 25%;
 .loa{
   background: rgb(255, 255, 255);
   background-size: 100%;
-  width: 90%;
-  height: 500%;
+  width: 120%;
+  height: 620%;
   z-index: 1;
   position: absolute;
   left: 0px;
@@ -612,6 +638,7 @@ top: 25%;
   background-attachment: fixed;
   z-index: 1;
 }
+
 .out{
   background: none;
   border-style: none;
@@ -644,6 +671,7 @@ top: 25%;
   left: 25px;
   top: 20%;
 }
+
 .second{
   position: absolute;
   top: 120%;
@@ -674,8 +702,11 @@ line-height: normal;
   flex-direction: column;
   justify-content: center;
 }
+.three>div>center>h1{
+  position: absolute;
+  left: 50px;
+}
 .three>div{
-  margin: 50px;
   position: relative;
   top: 150px;
   left: -25px;
@@ -685,6 +716,7 @@ line-height: normal;
   background: #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(145, 145, 145, 0.50);
   width: 90%;
+  margin-bottom: 50px;
   height: 35%;
   flex-shrink: 0;
   transition: 0.7s ease;
@@ -913,7 +945,7 @@ top: 60%;
   justify-content: left;
   position: absolute;
   left: 10%;
-  top: 175%;
+  top: 195%;
 }
 .v,.v1,.v2{
   width: 30px;
@@ -936,7 +968,7 @@ top: 60%;
 .container{
   position: absolute;
   left: 5%;
-  top: 270%;
+  top: 290%;
 }
 .form-control1{
   width: 90%;
@@ -945,5 +977,31 @@ top: 60%;
   border-radius: 10px;
   border-color: rgb(184, 184, 184);
   border-style: inset;
+}
+footer{
+  background: #17A29C;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 610%;
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+footer>center>p>a{
+  color: #FFF;
+}
+footer>center>p>a:hover{
+  color: #cbcbcb;
+}
+.form-control1::placeholder{
+  padding-top: 20px;
+  
+  font-family: 'Poppins', sans-serif;
+}
+.form-control,.form-control1::placeholder{
+  padding-left: 20px;
+  
+  font-family: 'Poppins', sans-serif;
 }
   }
