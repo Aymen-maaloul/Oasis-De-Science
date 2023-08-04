@@ -611,7 +611,7 @@ top: 25%;
 .loa{
   background: rgb(255, 255, 255);
   background-size: 100%;
-  width: 120%;
+  width: 123%;
   height: 620%;
   z-index: 1;
   position: absolute;
@@ -980,7 +980,7 @@ top: 60%;
 }
 footer{
   background: #17A29C;
-  width: 120%;
+  width: 123%;
   position: absolute;
   left: 0%;
   top: 610%;
