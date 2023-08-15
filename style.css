@@ -611,8 +611,8 @@ top: 25%;
 .loa{
   background: rgb(255, 255, 255);
   background-size: 100%;
-  width: 123%;
-  height: 620%;
+  width: 130%;
+  height: 630%;
   z-index: 1;
   position: absolute;
   left: 0px;
@@ -980,10 +980,10 @@ top: 60%;
 }
 footer{
   background: #17A29C;
-  width: 123%;
+  width: 142%;
   position: absolute;
-  left: 0%;
-  top: 610%;
+  left: -2%;
+  top: 530%;
   color: white;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;

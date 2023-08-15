@@ -8,7 +8,7 @@ function sendMail() {
     const serviceID = "service_pfivuzk";
     const templateID = "template_999brkj";
   if(!document.getElementById("name").value || !document.getElementById("email").value || !document.getElementById("message").value){
-    alert('22')
+    alert('Please enter your information')
       
   
   }
