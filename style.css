@@ -22,7 +22,7 @@ body{
     background: url("first1.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 100%;
+    width: 97.5%;
     height: 100%;
 }
 .loa{
@@ -709,7 +709,7 @@ line-height: normal;
 .three>div{
   position: relative;
   top: 150px;
-  left: -25px;
+  left: -18px;
 }
 .enig{
   border-radius: 43px;
