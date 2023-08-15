@@ -518,9 +518,9 @@ top: 60%;
   }
   footer{
     background: #17A29C;
-    width: 100%;
+    width: 102%;
     position: absolute;
-    left: 0%;
+    left: -3%;
     top: 440%;
     color: white;
     text-decoration: none;
