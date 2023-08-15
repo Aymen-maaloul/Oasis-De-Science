@@ -3,6 +3,18 @@ $(document).ready(function(){
         $(".menu").fadeIn(500);
         $(".body2").toggle();
     });
+    $(".expe").click(function(){
+      $(".menu").fadeOut();
+  });
+  $(".about").click(function(){
+    $(".menu").fadeOut();
+});
+$(".home").click(function(){
+  $(".menu").fadeOut();
+});
+$(".contact").click(function(){
+  $(".menu").fadeOut();
+});
     $(".out").click(function(){
         $(".menu").fadeOut(500);
     });
@@ -44,3 +56,7 @@ form.onsubmit = (e)=>{
   let formData = new FormData(form);
   xhr.send(formData);
 }
+
+$(document).ready(function(){
+     
+});

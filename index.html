@@ -45,10 +45,10 @@
         <center>
         <table>
 
-            <tr><li type="none"><a class="home" href="">HOME</a></li></tr>
-            <tr><li type="none"><a class="about" href="#second">ABOUT US</a></li></tr>
-            <tr><li type="none"><a class="expe" href="#three">EXPERIENCE</a></li></tr>
-            <tr><li type="none"><a class="contact" href="#four">CONTACT</a></li></tr>
+            <tr><li type="none"><a class="home"idhome href="">HOME</a></li></tr>
+            <tr><li type="none"><a class="about" id="about" href="#second">ABOUT US</a></li></tr>
+            <tr><li type="none"><a class="expe" id="expe" href="#three">EXPERIENCE</a></li></tr>
+            <tr><li type="none"><a onclick="fer()" id="contact" class="contact" href="#four">CONTACT</a></li></tr>
         </table>
     </center>
     </div>
@@ -179,7 +179,7 @@ projects, and seeking to achieve value-added projects.</p>
               <input
                 type="email"
                 class="form-control"
-                id="email" placeholder="Email"
+                id="email" placeholder="Email" required
               />
             </div>
             <div class="form-group">
@@ -190,13 +190,14 @@ projects, and seeking to achieve value-added projects.</p>
         </div>
       </div>
 </div>
-        
-    </section>
-
 <footer>
     <center>
     <p>© 2023 ODS. Made by <a href="">Aymen Maaloul</a></p></center>
-        </footer>
+</footer>
+
+    </section>
+
+
 
 
 
@@ -248,6 +249,7 @@ projects, and seeking to achieve value-added projects.</p>
               .catch(err=>console.log(err));
           
           }
+         
     </script>
 </body>
 
