@@ -518,7 +518,8 @@ top: 60%;
   }
   footer{
     background: #17A29C;
-  width: 105.05%;
+    padding-right: 5%;
+    width: 100%;
     position: absolute;
     left: -3%;
     top: 440%;
@@ -606,7 +607,7 @@ top: 25%;
   width: 90.5%;
   position: absolute;
   left: 5%;
-  top:0%;
+  top:3%;
 }
 .loa{
   background: rgb(255, 255, 255);
@@ -624,7 +625,7 @@ top: 25%;
   font-size: 23px;
   position: absolute;
   left: 5%;
-  top: 175px;
+  top: 230px;
   width: 97.5%;
 }
 .menu{
@@ -669,7 +670,7 @@ top: 25%;
   border: none;
   position: absolute;
   left: 25px;
-  top: 20%;
+  top: 24%;
 }
 
 .second{
