@@ -225,13 +225,12 @@ font-weight: 400;
 line-height: normal;
 }
 .second>img{
-    width: 70%;
+    width: 800px;
     position: relative;
     top: -200px;
-    margin-left: -3%;
 }
 .second>p{
-    width: 45%;
+    width: 630px;
     height: 330px;
     color: #7D7D7D;
     font-family: Abel;
@@ -240,7 +239,7 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
     position: relative;
-    margin-left: 60%;
+    left: 52%;
     top: -800px;
 }
 .three{
@@ -519,8 +518,7 @@ top: 60%;
   }
   footer{
     background: #17A29C;
-    padding-right: 5%;
-    width: 100%;
+  width: 105.05%;
     position: absolute;
     left: -3%;
     top: 440%;
